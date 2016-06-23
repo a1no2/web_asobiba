@@ -1,0 +1,52 @@
+#allWrap_div{
+	width: 100%;
+	height: 1000px;
+	margin: 0;
+	padding: 0;
+}
+
+/*中央配置　インライン*/
+.center_in{
+	/*margin: auto;*/
+	/*color: red;*/
+	text-align: center;
+
+}
+
+
+/*ここからマウスオーバー*/
+#abcd_ul{
+	list-style: none;
+	margin-right: 3em;
+
+}
+
+li{
+	margin-top: 20px;
+}
+
+
+#a_li:hover{
+	color: blue;
+}
+#b_li:hover{
+	/*background-size: content;*/
+	background-color: #f00;
+	/*background-repeat: no-repeat;*/
+	/*background-size:cover;*/
+	/*background-size:contain;*/
+	/*background-size: auto 100%;*/
+	background-size: 100% auto;
+}
+#c_li:hover{
+
+}
+#d_li:hover{
+	font-size: 2em;
+
+}
+
+ul:hover li:nth-child(odd){
+	background-color: #0f0;
+}
+
