@@ -1,0 +1,12 @@
+.triangle{
+	width: 100px;
+	height: 100px;
+	margin: 50px auto;
+	background: #f0f;
+	background: linear-gradient(45deg, transparent 50%, #444 0);
+	引数 1 
+	/*第2引数を　transparent　を指定するとくろくなる*/
+
+	あふたー
+	びふぉあー
+}
